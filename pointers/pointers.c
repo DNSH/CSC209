@@ -11,13 +11,13 @@ int main(void) {
 	q = &j;
 
 	printf("The value at p is %d\n", *p);
-    printf("The value at q is %d\n", *q);
+    	printf("The value at q is %d\n", *q);
 
 	printf("Changing values\n");
 
 	*p = 40;
 	
-    printf("The value at p is %d\n", *p);
+    	printf("The value at p is %d\n", *p);
 
 	return 0;
 }
