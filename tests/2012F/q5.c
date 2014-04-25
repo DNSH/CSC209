@@ -1,3 +1,8 @@
+/*
+5. [12 marks]
+Write the library function "fgets" in terms of getc().
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
