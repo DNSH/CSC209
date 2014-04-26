@@ -1,3 +1,5 @@
+/* Chapter 11, Section 11.4, Question #3 - King */
+
 #include <stdio.h>
 #include <stdlib.h>
 
