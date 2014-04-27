@@ -4,7 +4,10 @@
 
 int main(void) {
 
-	
+	int *p;
+	*p = 12;
+
+	printf("%d\n", *p);
 
 	return 0;
 }
