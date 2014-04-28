@@ -8,7 +8,7 @@ void handler(int code) {
 	if(turn == 0) {
 		fprintf(stderr, "First\n");
 		turn = 1;
-		kill(getpid(), SIGTERM);
+//		kill(getpid(), SIGTERM);
 //		kill(getpid(), SIGQUIT);
 		/* D */
 	} else {
@@ -35,7 +35,7 @@ int main() {
 
 	fprintf(stderr, "Done\n");
 
-//	kill(getpid(), SIGTERM);
+	kill(getpid(), SIGTERM);
 	/* C */
 	return 0;
 }
